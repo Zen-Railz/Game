@@ -358,19 +358,81 @@ We can download free animations from Mixamo and import to Unity.
     <br clear="both" />
 </p>
 <p>
-    <img src="Document/images/unity_animation_play.gif" alt="unity add to animator" align="left" height="200"/>
+    <img src="Document/images/unity_animation_play.gif" alt="unity animation preview" align="left" height="200"/>
     In the "Animation" window, you can adjust each the position of each body part at each keyframe. You may switch to the "Curves" tab as an alternative to adjusting the positions.
     <br><br>
     To run a quick preview of the animation you have created, click on the "play" button in the "Animation" window. Note that some physics may not apply as this is only a quick preview of the animation.
     <br clear="both" />
 </p>
-<p>
-    
-</p>
 <p align="center">
     Voilà! We have successfully incorporated animation into our model via Unity!
     <br><br>
     <img src="Document/images/unity_railisu_thankful.gif" alt="unity thankful animation"/>
+</p>
+
+### MikuMikuDance
+
+For dance-like animations, we can use the MikuMikuDance application.
+
+<details>
+    <summary>Installation of MikuMikuDance</summary>
+    <ol>
+        <li>Navigate to <a href="https://learnmmd.com/downloads/">MikuMikuDance</a> official website
+        </li>
+        <li>Download the latest version</li>
+        <li>Follow the instructions on the webpage</li>
+    </ol>
+</details>
+<p>
+    Before proceeding, we have to fisrt export our model from Unity to a <code>.vrm</code> file, then convert to <code>.pmx</code> format.
+</p>
+<details>
+    <summary>Installation of VRM2PMXConverter</summary>
+    
+</details>
+<p>
+    <img src="Document/images/vrm2pmxconverter_startup.png" alt="vrm2pmxconverter startup screen" align="left" height="200"/>
+    Launch the VRM2PMXConverter application.
+    <br><br>
+    Click on "Play!".
+    <br clear="both" />
+</p>
+<p>
+    <img src="Document/images/vrm2pmxconverter_loadvrmfile.png" alt="vrm2pmxconverter load file" align="left" height="200"/>
+    Click on "Load VRM File" and select the <code>.vrm</code> file you have exported from Unity.
+    <br clear="both" />
+</p>
+<p>
+    <img src="Document/images/vrm2pmxconverter_converttopmx.png" alt="vrm2pmxconverter convert file" align="left" height="200"/>
+    Click on "Convert to PMX" button to start the converion.
+    <br><br>
+    On completion, a new folder containing the <code>.pmx</code> file will be created in the same directory as the imported <code>.vrm</code> file.
+    <br clear="both" />
+</p>
+<p align="center">
+    Launch the MikuMikuDance application.
+    <br><br>
+    <img src="Document/images/mikumikudance_startup.png" alt="vrm2pmxconverter convert file" />
+    <br clear="both" />
+</p>
+<p>
+    Click on the "To model" button near the bottom-left of the central screen. Select the <code>.pmx</code> file to import into the application.
+    <br clear="both" />
+</p>
+<p>
+    We can download free animations from <a href="https://learnmmd.com/downloads/">LearnMMD.com</a> or <a href="https://mmdmotiondl.tumblr.com/">MMD Motion Downloads</a>.
+</p>
+<p>
+    <img src="Document/images/mikumikudance_loadmotiondata.png" alt="mikumikudance load motion data" align="left" height="200"/>
+    To load animations into your model, select "load motion data(M)" from the dropdown list of the "File" tab in the navigation toolbar. Look for the <code>.vmd</code> that you may have downloaded.
+    <br clear="both" />
+</p>
+<p>
+    <img src="Document/images/mikumikudance_demo.gif" alt="mikumikudance demo performance" align="left" />
+    On load, your model will resume the default pose of the animation. Click on "play" to see the animation at work.
+    <br><br>
+    Motion data taken from ぺんたさん's <a href="https://www.nicovideo.jp/watch/sm25418510">地球最後の告白を</a>
+    <br clear="both" />.
 </p>
 
 ## Recording
