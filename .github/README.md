@@ -433,10 +433,10 @@ For dance-like animations, we can use the MikuMikuDance application.
 </p>
 <p>
     <img src="images/mikumikudance_demo.gif" alt="mikumikudance demo performance" align="left" />
-    On load, your model will resume the default pose of the animation. Click on "play" to see the animation at work.
+    On load, your model will assume the default pose of the animation. Click on "play" to see the animation at work.
     <br><br>
-    Motion data taken from ぺんたさん's <a href="https://www.nicovideo.jp/watch/sm25418510">地球最後の告白を</a>
-    <br clear="both" />.
+    Motion data taken from ぺんたさん's <a href="https://www.nicovideo.jp/watch/sm25418510">地球最後の告白を</a>.
+    <br clear="both" />
 </p>
 
 ## Recording
