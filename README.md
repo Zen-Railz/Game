@@ -388,7 +388,11 @@ For dance-like animations, we can use the MikuMikuDance application.
 </p>
 <details>
     <summary>Installation of VRM2PMXConverter</summary>
-    
+    <ol>
+        <li>Navigate to <a href="https://www.nicovideo.jp/watch/sm34705374">VRM2PMXConverter</a> download page
+        </li>
+        <li>Download the latest version</li>
+    </ol>
 </details>
 <p>
     <img src="Document/images/vrm2pmxconverter_startup.png" alt="vrm2pmxconverter startup screen" align="left" height="200"/>
@@ -448,11 +452,12 @@ For dance-like animations, we can use the MikuMikuDance application.
 - [Inkscape](https://inkscape.org/)
 - [Paint.NET](https://www.getpaint.net/)
 - [OBS Studio](https://obsproject.com/)
-- [Procreate](https://procreate.art/)
+- [MikuMikuDance](https://learnmmd.com/downloads/)
 
 ### Resources
 - [Mixamo](https://www.mixamo.com/)
 - [Booth](https://booth.pm/en)
+- [MMD Motion Downloads](https://mmdmotiondl.tumblr.com/)
 
 ### Tutorials
 
